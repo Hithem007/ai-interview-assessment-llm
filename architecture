@@ -1,0 +1,19 @@
+# System Architecture
+
+The AI Interview Assessment system is structured as a pipeline:
+
+Candidate Response → LLM Analysis → Evaluation Layer → Feedback Loop
+
+### Components
+
+1. Input Layer
+Collects candidate responses from interview prompts.
+
+2. Analysis Layer
+Processes responses using LLM prompts and evaluation heuristics.
+
+3. Evaluation Layer
+Scores responses using structured rubric-based metrics.
+
+4. Feedback Layer
+Stores evaluation results for continuous system improvement.
