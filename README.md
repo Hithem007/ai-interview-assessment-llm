@@ -68,11 +68,15 @@ Improvements can come from:
 
 Future research directions include:
 
-- Reinforcement learning for scoring optimization
 - Embedding-based candidate similarity analysis
 - Multi-modal evaluation (video + text)
 - Distributed evaluation pipelines
 
+Possible extensions include:
+
+- Reinforcement learning to optimize scoring policies
+- Reward modeling for interviewer feedback
+- Dataset generation for candidate response training
 ---
 
 ## Tech Stack
